@@ -1,0 +1,42 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#video-container {
+  height: 400;
+  position: relative;
+}
+
+#code-details {
+  margin-top: 10px;
+}
+
+#code-details h3 a {
+  color: blue;
+  text-decoration: underline;
+  font-family: monospace;
+}
+
+footer {
+  text-align: center;
+  opacity: 0.2;
+}
